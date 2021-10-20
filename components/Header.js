@@ -25,7 +25,7 @@ export default function Header({ searchItem }) {
                         setValue(searchItem(value));
                     }} 
                 >
-                    <AntDesign name="search1" size={24} color="midnightblue" />
+                    <AntDesign name="search1" size={24} color="#98D9A9" />
                 </SubmitButton>
             </SearchContainer>
         </>

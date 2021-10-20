@@ -9,14 +9,14 @@ export default function TodoList({ item, deleteItem }) {
     <ComponentContainer>
       <ListContainer>
         <CirlceContainer onPress={() => {}}>
-          <Entypo name="circle" size={24} color="midnightblue" />
+          <Entypo name="circle" size={24} color="#98D9A9" />
         </CirlceContainer>
         <View>
           <TextItem>{item.value}</TextItem>
           <TextDate>{item.date}</TextDate>
         </View>
         <IconContainer onPress={() => deleteItem(item.key)}>
-          <MaterialIcons name="delete" size={24} color="midnightblue" />
+          <MaterialIcons name="delete" size={24} color="#98D9A9" />
         </IconContainer>
       </ListContainer>
     </ComponentContainer>

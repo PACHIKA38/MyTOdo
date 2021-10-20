@@ -19,7 +19,7 @@ export default function AddInput({ submitHandler }) {
         <Input placeholder="Add Task..." onChangeText={onChangeText} />
       </InputContainer>
       <CalendarButton onPress={() => setOpen(true)} >
-        <AntDesign name="calendar" size={24} color="midnightblue" />
+        <AntDesign name="calendar" size={24} color="#98D9A9" />
       </CalendarButton>
       <DatePicker
         modal
@@ -39,7 +39,7 @@ export default function AddInput({ submitHandler }) {
           setValue(submitHandler(value, date));
         }}
       >
-        <AntDesign name="plus" size={24} color="midnightblue" />
+        <AntDesign name="plus" size={24} color="#98D9A9" />
       </SubmitButton>
     </ComponentContainer>
   );
